@@ -1,0 +1,136 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Greetings! What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Take care!",
+        "See you later! Stay healthy!",
+        "Bye! Don't hesitate to reach out if you need more assistance."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Take care."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "I have a headache",
+        "I'm feeling dizzy",
+        "I have a fever",
+        "My stomach hurts",
+        "I have a cough",
+        "I have a sore throat"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Can you describe your symptoms in more detail?",
+        "That sounds uncomfortable. How long have you been feeling this way?",
+        "I understand. Have you taken any medication for it?"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "I need to book an appointment",
+        "Can I schedule a consultation?",
+        "How do I make an appointment?",
+        "I need to see a doctor"
+      ],
+      "responses": [
+        "Sure, I can help with that. Please provide your preferred date and time.",
+        "Of course. Can you tell me the reason for your visit?",
+        "I can assist you with scheduling an appointment. What is your availability?"
+      ]
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "What medication should I take for a headache?",
+        "Can you recommend something for a sore throat?",
+        "What are the side effects of ibuprofen?",
+        "How often should I take my prescription?"
+      ],
+      "responses": [
+        "For a headache, over-the-counter pain relievers like ibuprofen or acetaminophen can help. Always follow the dosage instructions.",
+        "For a sore throat, lozenges and warm teas can be soothing. If symptoms persist, consult a doctor.",
+        "Common side effects of ibuprofen include stomach pain, nausea, and dizziness. If you experience severe side effects, seek medical attention.",
+        "You should follow the instructions provided by your doctor or pharmacist. If you're unsure, please consult them directly."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "I think I'm having a heart attack",
+        "I need urgent help",
+        "There's a medical emergency",
+        "What should I do in an emergency?"
+      ],
+      "responses": [
+        "If you are experiencing a medical emergency, please call emergency services immediately.",
+        "For any urgent medical situation, it's best to seek immediate help from a healthcare professional.",
+        "In case of an emergency, dial your local emergency number or go to the nearest hospital."
+      ]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": [
+        "How can I improve my health?",
+        "What are some health tips?",
+        "How can I stay healthy?",
+        "What should I do to maintain good health?"
+      ],
+      "responses": [
+        "Maintain a balanced diet, exercise regularly, get enough sleep, and stay hydrated.",
+        "Regular check-ups with your doctor can help prevent health issues.",
+        "Avoid smoking, limit alcohol consumption, and manage stress through relaxation techniques like meditation."
+      ]
+    },
+    {
+      "tag": "vaccination",
+      "patterns": [
+        "When should I get vaccinated?",
+        "What vaccines do I need?",
+        "Is the flu vaccine necessary?",
+        "What are the benefits of vaccines?"
+      ],
+      "responses": [
+        "Vaccination schedules vary by age and health condition. Consult your doctor for personalized advice.",
+        "Common vaccines include those for influenza, tetanus, and measles. Your doctor can recommend specific vaccines based on your health needs.",
+        "The flu vaccine is recommended annually, especially for high-risk individuals like the elderly and those with chronic conditions.",
+        "Vaccines help protect against infectious diseases and can prevent serious health complications."
+      ]
+    }
+  ]
+}
